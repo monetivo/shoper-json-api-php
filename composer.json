@@ -1,0 +1,24 @@
+{
+  "name": "monetivo/shoper-json-api-php",
+  "description": "Shoper JSON API PHP client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Grzegorz Agaciński",
+      "email": "gagacinski@monetivo.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Monetivo\\": "src/"
+    }
+  }
+}
